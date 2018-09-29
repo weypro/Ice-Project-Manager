@@ -1,0 +1,62 @@
+﻿<SkinDialog DefaultWidth="680" DefaultHeight="840" SysButton="CLOSE" Icon="128" Caption="IDS_LAYOUT_SHOW6" Animation="SizeChange">
+	<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="相对父视图" LayoutHeight="30" AlignParentLeft="10" AlignParentTop="30" AlignParentRight="10"/>
+	<SkinRelativeLayout AlignParentLeft="20" AlignParentTop="80" AlignParentRight="20" LayoutHeight="340">
+		<SkinRelativeLayout AlignParentLeft="0" AlignParentTop="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentLeft="0" AlignParentTop="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignParentRight="0" AlignParentBottom="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentRight="0" AlignParentBottom="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignParentLeft="0" AlignParentBottom="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentLeft="0" AlignParentBottom="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignParentRight="0" AlignParentTop="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentRight="0" AlignParentTop="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignParentLeft="0" AlignParentVerticalCenter="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentLeft="0" AlignParentVerticalCenter="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignParentRight="0" AlignParentVerticalCenter="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentRight="0" AlignParentVerticalCenter="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignParentTop="0" AlignParentHorizontalCenter="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentTop="0" AlignParentHorizontalCenter="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignParentBottom="0" AlignParentHorizontalCenter="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentBottom="0" AlignParentHorizontalCenter="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="相对兄弟视图" LayoutHeight="30" AlignParentLeft="10" AlignParentTop="440" AlignParentRight="10"/>
+	<SkinRelativeLayout AlignParentLeft="20" AlignParentBottom="20" AlignParentRight="20" LayoutHeight="340">
+		<SkinRelativeLayout Id="100000" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='Id="100000" 我是参照物' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout ToLeftOf="100000,20" ToTopOf="100000,20" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='ToLeftOf="100000,20" ToTopOf="100000,20" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout ToLeftOf="100000,20" AlignTopOf="100000,0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='ToLeftOf="100000,20" AlignTopOf="100000,0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout ToLeftOf="100000,20" ToBottomOf="100000,20" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='ToLeftOf="100000,20" ToBottomOf="100000,20" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout ToRightOf="100000,20" ToTopOf="100000,20" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='ToRightOf="100000,20" ToTopOf="100000,20" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout ToRightOf="100000,20" AlignTopOf="100000,0" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='ToRightOf="100000,20" AlignTopOf="100000,0" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout ToRightOf="100000,20" ToBottomOf="100000,20" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='ToRightOf="100000,20" ToBottomOf="100000,20" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignLeftOf="100000,0" ToTopOf="100000,20" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignLeftOf="100000,0" ToTopOf="100000,20" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout AlignLeftOf="100000,0" ToBottomOf="100000,20" LayoutWidth="200" LayoutHeight="100" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text='AlignLeftOf="100000,0" ToBottomOf="100000,20" LayoutWidth="200" LayoutHeight="100"' LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE" MultiLine="true"/>
+		</SkinRelativeLayout>
+	</SkinRelativeLayout>
+</SkinDialog>

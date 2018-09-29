@@ -1,0 +1,7 @@
+﻿<SkinDialog DefaultWidth="500" DefaultHeight="400" SysButton="CLOSE" Icon="128" Caption="IDS_SLIDE_ANIMATION1" Animation="SizeChange">
+	<SkinButton Id="1000" LayoutWidth="125" LayoutHeight="30" ChildText1="IDS_CLICK_ME" Image="Button.png" Layout="Button.xml" AlignParentLeft="50" AlignParentVerticalCenter="0" PressDownOffset="1"/>
+	<SlideAnimationHost Id="2000" LayoutWidth="300" AlignParentTop="30" AlignParentBottom="0" AlignParentRight="0" BkgImage="SlideShadow.png" Visible="false">
+		<SkinSlideLayout Id="2001" LayoutWidth="FillParent" LayoutHeight="FillParent" Color="ID_COLOR_RED">
+		</SkinSlideLayout>
+	</SlideAnimationHost>
+</SkinDialog>

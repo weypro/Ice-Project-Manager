@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinImageView Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="Loading.gif"/>
+	<SkinTextView Id="100002" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Text="IDS_NO_MORE_MSG" FontColor="ID_COLOR_TEXT_TIPS" Visible="false"/>
+</SkinRelativeLayout>

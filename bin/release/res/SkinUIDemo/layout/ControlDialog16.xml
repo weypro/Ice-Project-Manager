@@ -1,0 +1,22 @@
+﻿<SkinDialog DefaultWidth="445" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW16" Animation="SizeChange">
+	<SkinRelativeLayout LayoutWidth="150" AlignParentLeft="15" AlignParentTop="45" AlignParentBottom="60" BkgColor="ID_COLOR_WHITE" Border="ID_COLOR_LINE">
+		<SkinListView Id="101" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="2" AlignParentBottom="2" VScrollBar="VScrollBar.xml">
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="ListItem.xml" ChildText1="SkinListItem1"/>
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="ListItem.xml" ChildText1="SkinListItem2"/>
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="ListItem.xml" ChildText1="SkinListItem3"/>
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="ListItem.xml" ChildText1="SkinListItem4"/>
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="ListItem.xml" ChildText1="SkinListItem5"/>
+		</SkinListView>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout LayoutWidth="250" AlignParentRight="15" AlignParentTop="45" AlignParentBottom="60" BkgColor="ID_COLOR_WHITE" Border="ID_COLOR_LINE">
+		<SkinListView Id="102" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="2" AlignParentBottom="2" VScrollBar="VScrollBar.xml">
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="UserListItem.xml" ChildImage1="Male.png" ChildText2="姓名1" ChildText3="男"/>
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="UserListItem.xml" ChildImage1="Female.png" ChildText2="姓名2" ChildText3="女"/>
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="UserListItem.xml" ChildImage1="Male.png" ChildText2="姓名3" ChildText3="男"/>
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="UserListItem.xml" ChildImage1="Female.png" ChildText2="姓名4" ChildText3="男"/>
+			<SkinListItem LayoutWidth="FillParent" LayoutHeight="30" Image="ListItem.png" Layout="UserListItem.xml" ChildImage1="Male.png" ChildText2="姓名5" ChildText3="女"/>
+		</SkinListView>
+	</SkinRelativeLayout>	
+	<SkinButton Id="201" LayoutWidth="150" LayoutHeight="30" ChildText1="添加节点" Image="Button.png" Layout="Button.xml" AlignParentLeft="15" AlignParentBottom="15" PressDownOffset="1"/>
+	<SkinButton Id="202" LayoutWidth="250" LayoutHeight="30" ChildText1="添加节点" Image="Button.png" Layout="Button.xml" AlignParentRight="15" AlignParentBottom="15" PressDownOffset="1"/>
+</SkinDialog>

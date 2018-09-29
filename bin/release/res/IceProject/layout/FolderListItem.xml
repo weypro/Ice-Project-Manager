@@ -1,0 +1,10 @@
+﻿<SkinRelativeLayout>
+  <SkinHorzPercentLayout AlignParentLeft="0" AlignParentRight="0" LayoutHeight="FillParent">
+    <SkinRelativeLayout LayoutWidth="10" LayoutHeight="FillParent">
+      <SkinTextView Id="100001" LayoutWidth="FillParent" LayoutHeight="FillParent"/>
+    </SkinRelativeLayout>
+    <SkinRelativeLayout LayoutWidth="3" LayoutHeight="FillParent">
+      <SkinButton Id="401" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentVerticalCenter="0" Image="icon_wrong.png" Tips="IDS_DELETE_TIPS"/>
+    </SkinRelativeLayout>
+  </SkinHorzPercentLayout>
+</SkinRelativeLayout>

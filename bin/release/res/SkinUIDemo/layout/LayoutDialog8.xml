@@ -1,0 +1,13 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_LAYOUT_SHOW8" Animation="SizeChange">
+	<SkinRelativeLayout Id="1000" AlignParentLeft="25" AlignParentTop="45" AlignParentRight="25" AlignParentBottom="25" ColumnCount="3">
+		<SkinButton Id="100000" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" LayoutWidth="100" LayoutHeight="30" ChildText1="5" Image="Button.png" Layout="Button.xml"/>
+		<SkinButton ToLeftOf="100000,20" ToTopOf="100000,20" LayoutWidth="100" LayoutHeight="30" ChildText1="1" Image="Button.png" Layout="Button.xml"/>
+		<SkinButton ToLeftOf="100000,20" AlignTopOf="100000,0" LayoutWidth="100" LayoutHeight="30" ChildText1="4" Image="Button.png" Layout="Button.xml"/>
+		<SkinButton ToLeftOf="100000,20" ToBottomOf="100000,20" LayoutWidth="100" LayoutHeight="30" ChildText1="7" Image="Button.png" Layout="Button.xml"/>
+		<SkinButton ToRightOf="100000,20" ToTopOf="100000,20" LayoutWidth="100" LayoutHeight="30" ChildText1="3" Image="Button.png" Layout="Button.xml"/>
+		<SkinButton ToRightOf="100000,20" AlignTopOf="100000,0" LayoutWidth="100" LayoutHeight="30" ChildText1="6" Image="Button.png" Layout="Button.xml"/>
+		<SkinButton ToRightOf="100000,20" ToBottomOf="100000,20" LayoutWidth="100" LayoutHeight="30" ChildText1="9" Image="Button.png" Layout="Button.xml"/>
+		<SkinButton AlignLeftOf="100000,0" ToTopOf="100000,20" LayoutWidth="100" LayoutHeight="30" ChildText1="2" Image="Button.png" Layout="Button.xml"/>
+		<SkinButton AlignLeftOf="100000,0" ToBottomOf="100000,20" LayoutWidth="100" LayoutHeight="30" ChildText1="8" Image="Button.png" Layout="Button.xml"/>
+	</SkinRelativeLayout>
+</SkinDialog>

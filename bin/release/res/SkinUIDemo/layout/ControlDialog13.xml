@@ -1,0 +1,4 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW13" Animation="SizeChange">
+	<SkinSlider Id="101" LayoutHeight="21" AlignParentLeft="15" AlignParentRight="15" AlignParentVerticalCenter="-20" Range="100" Pos="0" Image="SliderBkg.png" ThumbImage="SliderThumb.png"/>
+	<SkinButton Id="201" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="增加进度, Step=10" Image="Button.png" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="20" PressDownOffset="1"/>
+</SkinDialog>

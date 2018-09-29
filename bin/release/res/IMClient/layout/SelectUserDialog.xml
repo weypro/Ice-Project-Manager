@@ -1,0 +1,15 @@
+﻿<SkinDialog DefaultWidth="600" DefaultHeight="500" Animation="SizeChange" Icon="128" SysButton="CLOSE" Caption="IDS_USER_PICKER">
+	<SkinRelativeLayout Id="10000" LayoutWidth="300" AlignParentLeft="0" AlignParentTop="30" AlignParentBottom="60">
+		<CorpTreeView Id="11000" LayoutWidth="FillParent" LayoutHeight="FillParent" ScrollBar="VScrollBar.xml" EmptyTips="IDS_EMPTY_TIPS"/>
+	</SkinRelativeLayout>
+	<SkinLine ToRightOf="10000,0" LayoutWidth="1"  AlignParentTop="30" AlignParentBottom="61" Color="ID_COLOR_LINE"/>
+	<SkinRelativeLayout Id="20000" ToRightOf="10000,1" AlignParentTop="30" AlignParentRight="0" AlignParentBottom="60">
+		<SkinTextView Id="20001" LayoutWidth="WrapContent" LayoutHeight="40" AlignParentLeft="10" AlignParentTop="0" FontColor="ID_COLOR_TEXT_LIGHT"/>
+		<SkinListView Id="21000" ToBottomOf="20001,0" AlignParentBottom="0" AlignParentLeft="0" AlignParentRight="0" VScrollBar="VScrollBar.xml"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="60" AlignParentBottom="0">
+		<SkinLine LayoutWidth="FillParent" LayoutHeight="1" AlignParentTop="0" Color="ID_COLOR_LINE"/>
+		<SkinButton Id="1" LayoutWidth="70" LayoutHeight="32" AlignParentVerticalCenter="true" AlignParentRight="90" Image="Button2.png" ChildText1="IDS_OK" ChildFontColor1="ID_COLOR_WHITE" Layout="Button.xml"/>
+		<SkinButton Id="2" LayoutWidth="70" LayoutHeight="32" AlignParentVerticalCenter="true" AlignParentRight="10" Image="Button.png" ChildText1="IDS_CANCEL" Layout="Button.xml"/>
+	</SkinRelativeLayout>
+</SkinDialog>

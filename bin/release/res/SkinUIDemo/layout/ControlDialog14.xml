@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW14" Animation="SizeChange">
+	<SkinDateView LayoutWidth="200" LayoutHeight="30" Layout="DateView.xml" Image="Edit.png" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="true" />
+</SkinDialog>

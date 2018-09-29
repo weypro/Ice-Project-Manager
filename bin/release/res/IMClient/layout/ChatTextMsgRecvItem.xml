@@ -1,0 +1,7 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<AvatarView Id="100001" LayoutWidth="32" LayoutHeight="32" AlignParentLeft="10" AlignParentTop="10"/>
+	<ConversationNameView Id="100002" LayoutHeight="WrapContent" LayoutWidth="WrapContent" AlignParentTop="10" ToRightOf="100001,10" FontColor="ID_COLOR_TEXT_LIGHT" ReadOnly="true"/>
+	<SkinRelativeLayout Id="100100" ToRightOf="100001,10" ToBottomOf="100002,10" AlignParentBottom="10" Image="MsgLightBkg.png">
+		<SkinEditView Id="100101" AlignParentLeft="15" AlignParentRight="10" AlignParentTop="10" AlignParentBottom="10" RedrawEditView="true" MouseWheel="false" RichEdit="true" MultiLine="true" ReadOnly="true"/>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

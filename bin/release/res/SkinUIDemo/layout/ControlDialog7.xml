@@ -1,0 +1,6 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW7" Animation="SizeChange">
+	<SkinRadioGroup Id="100" LayoutWidth="200" LayoutHeight="60" AlignParentLeft="50" AlignParentTop="100">
+		<SkinRadioButton Id="101" LayoutWidth="200" LayoutHeight="30" ChildText1="IDS_CONTROL_SHOW_TEXT10" Layout="RadioButton.xml" AlignParentTop="0"/>
+		<SkinRadioButton Id="102" LayoutWidth="200" LayoutHeight="30" ChildText2="IDS_CONTROL_SHOW_TEXT11" ChildImage1="Icon.png" Layout="RadioButtonWidthIcon.xml" AlignParentTop="30"/>
+	</SkinRadioGroup>
+</SkinDialog>

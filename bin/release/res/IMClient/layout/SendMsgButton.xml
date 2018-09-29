@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinButton Id="323201" LayoutWidth="71" LayoutHeight="FillParent" AlignParentLeft="0" Layout="Button.xml" ChildText1="IDS_SEND_SHORTCUT"/>
+	<SkinButton Id="323202" LayoutWidth="29" LayoutHeight="FillParent" AlignParentRight="0" AlignParentVerticalCenter="1"/>
+</SkinRelativeLayout>

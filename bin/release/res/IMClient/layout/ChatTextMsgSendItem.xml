@@ -1,0 +1,7 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<AvatarView Id="100001" LayoutWidth="32" LayoutHeight="32" AlignParentRight="10" AlignParentTop="10"/>
+	<SkinRelativeLayout Id="100100" ToLeftOf="100001,10" AlignParentTop="10"AlignParentBottom="10" Image="MsgDeepBkg.png">
+		<SkinEditView Id="100101" AlignParentLeft="10" AlignParentRight="15" AlignParentTop="10" AlignParentBottom="10" RedrawEditView="true" MouseWheel="false" RichEdit="true" MultiLine="true" ReadOnly="true" FontColor="ID_COLOR_WHITE"/>
+	</SkinRelativeLayout>
+	<SkinImageView Id="100003" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToLeftOf="100100,10" AlignParentVerticalCenter="0" Image="Loading.gif"/>
+</SkinRelativeLayout>

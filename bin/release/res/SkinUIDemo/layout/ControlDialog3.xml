@@ -1,0 +1,5 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW3" Animation="SizeChange">
+	<SkinHyperlink Id="101" LayoutWidth="WrapContent" LayoutHeight="30" Text="IDS_CONTROL_SHOW_TEXT4" AlignParentHorizontalCenter="0" AlignParentTop="50"/>
+	<SkinHyperlink Id="102" LayoutWidth="120" LayoutHeight="30" Text="IDS_CONTROL_SHOW_TEXT5" AlignParentHorizontalCenter="0" AlignParentTop="125"/>
+	<SkinHyperlink Id="103" LayoutWidth="WrapContent" LayoutHeight="30" Text="IDS_CONTROL_SHOW_TEXT6" URL="www.baidu.com" AlignParentHorizontalCenter="0" AlignParentTop="200"/>
+</SkinDialog>

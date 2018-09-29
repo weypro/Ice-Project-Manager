@@ -1,0 +1,11 @@
+﻿<FontFamily>
+	<Familys>
+		<Family>微软雅黑</Family>
+		<Family>新宋体</Family>
+		<Family>宋体</Family>
+	</Familys>
+	<Fonts>
+        <Font Id="ID_FONT_SMALL" Size="7" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+		<Font Id="ID_FONT_NORMAL" Bold="false" Italic="false" Strikeout="false" Underline="false" MinSize="6" MaxSize="36"/>
+	</Fonts>
+</FontFamily>

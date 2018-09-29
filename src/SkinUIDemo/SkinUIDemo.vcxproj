@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{612DCCB6-FA4E-4A7C-8F54-EDB9E439FD48}</ProjectGuid>
+    <RootNamespace>My360Safe</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>SkinUIDemo</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\bin\debug\</OutDir>
+    <IntDir>..\..\obj\$(ProjectName)\debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\bin\release\</OutDir>
+    <IntDir>..\..\obj\$(ProjectName)\release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include\SkinUI;..\third;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\lib\debug;..\bin\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImportLibrary>..\..\lib\debug\$(TargetName).lib</ImportLibrary>
+      <ProgramDatabaseFile>..\..\pdb\debug\$(TargetName).pdb</ProgramDatabaseFile>
+      <MinimumRequiredVersion>5.01</MinimumRequiredVersion>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\include\SkinUI;..\third;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\bin\release;..\..\Lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ProgramDatabaseFile>..\..\pdb\release\$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\..\lib\release\$(TargetName).lib</ImportLibrary>
+      <MinimumRequiredVersion>5.01</MinimumRequiredVersion>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDialog.cpp" />
+    <ClCompile Include="ButtonDialog.cpp" />
+    <ClCompile Include="CefWebDialog.cpp" />
+    <ClCompile Include="CefWebView.cpp" />
+    <ClCompile Include="CheckBoxDialog.cpp" />
+    <ClCompile Include="ComboBoxDialog.cpp" />
+    <ClCompile Include="DateViewDialog.cpp" />
+    <ClCompile Include="EditViewDialog.cpp" />
+    <ClCompile Include="GridViewDialog.cpp" />
+    <ClCompile Include="HideAnimationDialog.cpp" />
+    <ClCompile Include="HyperlinkDialog.cpp" />
+    <ClCompile Include="IEWebDialog.cpp" />
+    <ClCompile Include="IEWebView.cpp" />
+    <ClCompile Include="ImageViewDialog.cpp" />
+    <ClCompile Include="ListViewDialog.cpp" />
+    <ClCompile Include="ProgressDialog.cpp" />
+    <ClCompile Include="RadioButtonDialog.cpp" />
+    <ClCompile Include="ScrollBarDialog.cpp" />
+    <ClCompile Include="SkinUIDemo.cpp" />
+    <ClCompile Include="MainDialog.cpp" />
+    <ClCompile Include="SlideAnimationDialog.cpp" />
+    <ClCompile Include="SliderDialog.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TimeViewDialog.cpp" />
+    <ClCompile Include="TreeViewDialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\SkinUI\SkinApplication.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinCommon.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinControl.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinDefine.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinDialog.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinFunction.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinUI.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinView.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinWindow.h" />
+    <ClInclude Include="AboutDialog.h" />
+    <ClInclude Include="ButtonDialog.h" />
+    <ClInclude Include="CefWebDialog.h" />
+    <ClInclude Include="CheckBoxDialog.h" />
+    <ClInclude Include="ComboBoxDialog.h" />
+    <ClInclude Include="DateViewDialog.h" />
+    <ClInclude Include="EditViewDialog.h" />
+    <ClInclude Include="GridViewDialog.h" />
+    <ClInclude Include="HideAnimationDialog.h" />
+    <ClInclude Include="HyperlinkDialog.h" />
+    <ClInclude Include="IEWebDialog.h" />
+    <ClInclude Include="ImageViewDialog.h" />
+    <ClInclude Include="ListViewDialog.h" />
+    <ClInclude Include="ProgressDialog.h" />
+    <ClInclude Include="RadioButtonDialog.h" />
+    <ClInclude Include="ScrollBarDialog.h" />
+    <ClInclude Include="SkinUIDemo.h" />
+    <ClInclude Include="MainDialog.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SlideAnimationDialog.h" />
+    <ClInclude Include="SliderDialog.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TimeViewDialog.h" />
+    <ClInclude Include="TreeViewDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Demo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Demo.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

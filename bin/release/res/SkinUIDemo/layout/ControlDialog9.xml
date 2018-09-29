@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW9" Animation="SizeChange">
+	<SkinComboBox LayoutHeight="30" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true" Tips="请选择" OptionText="男,女" AlignParentLeft="50" AlignParentRight="50" AlignParentVerticalCenter="0"/>
+</SkinDialog>

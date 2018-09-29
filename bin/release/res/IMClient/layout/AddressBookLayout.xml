@@ -1,0 +1,16 @@
+﻿<SkinRelativeLayout>
+	<SkinRelativeLayout Id="22100">
+		<TabCtrl Id="22110" LayoutWidth="FillParent" LayoutHeight="40" AlignParentTop="0" AlignParentHorizontalCenter="true">
+			<SkinRadioButton Id="22111" LayoutWidth="120" LayoutHeight="FillParent" AlignParentLeft="0" Image="TabButton.png" ChildText1="IDS_CORP_STRUCT" BindView="22120" Layout="TabButton.xml" Checked="true"/>
+			<SkinRadioButton Id="22112" LayoutHeight="FillParent" ToRightOf="22111,0" AlignParentRight="0" Image="TabButton.png" ChildText1="IDS_GROUP" BindView="22130" Layout="TabButton.xml"/>
+		</TabCtrl>
+		<CorpTreeView Id="22120" LayoutWidth="FillParent" ToBottomOf="22110,0" AlignParentBottom="0" ScrollBar="VScrollBar.xml" EmptyTips="IDS_EMPTY_TIPS"/>
+		<GroupListView Id="22130" LayoutWidth="FillParent" ToBottomOf="22110,0" AlignParentBottom="0" VScrollBar="VScrollBar.xml" EmptyTips="IDS_EMPTY_TIPS" Visible="false"/>
+	</SkinRelativeLayout>
+	<SkinSplitter Id="22200" LayoutWidth="1" LayoutHeight="FillParent" HorzSplitter="true" AlignParentLeft="240" Min="240" Max="340" Color="ID_COLOR_LINE"/>
+	<SkinRelativeLayout Id="22300">
+		<SkinRelativeLayout Id="22310" LayoutWidth="FillParent" LayoutHeight="FillParent">
+			<SkinImageView Id="22311" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="EmptyTips.png"/>
+		</SkinRelativeLayout>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

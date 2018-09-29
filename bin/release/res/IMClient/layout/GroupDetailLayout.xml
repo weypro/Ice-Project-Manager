@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout>
+	<GroupInfoLayout Id="40000" LayoutWidth="300" LayoutHeight="280" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Layout="GroupInfoLayout.xml"/>
+</SkinRelativeLayout>

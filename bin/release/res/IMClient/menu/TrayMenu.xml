@@ -1,0 +1,4 @@
+﻿<Menu>
+	<MenuItem Id="1011" Text="IDS_OPEN_CLIENT"/>
+	<MenuItem Id="1012" Text="IDS_QUIT" Icon="Quit.png"/>
+</Menu>

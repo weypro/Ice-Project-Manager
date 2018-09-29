@@ -1,0 +1,7 @@
+﻿<StringTable>
+	<String Id="IDS_APP_NAME">SkinUI资源打包工具</String>
+	<String Id="IDS_SETUP_NOW">立即打包</String>
+	<String Id="IDS_ANALYZING">正在分析资源...</String>
+	<String Id="IDS_SETUP_FINISH">资源打包成功！</String>
+	<String Id="IDS_WRITE_FILE_FORMAT">正在生成资源文件%s，写入%s...</String>
+</StringTable>

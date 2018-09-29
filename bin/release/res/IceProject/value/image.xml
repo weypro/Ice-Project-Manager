@@ -1,0 +1,4 @@
+﻿<Images>
+	<Image Name="icon_file.png" Frame="3"/>
+	<Image Name="icon_wrong.png" Frame="2"/>
+</Images>

@@ -1,0 +1,406 @@
+﻿<SkinDialog DefaultWidth="860" DefaultHeight="540" SysButton="SKIN;MENU;MIN;CLOSE" Icon="128" Caption="IDS_APP_NAME" Animation="SizeChange" ThemeHeight="72" Menu="MainMenu.xml" TrayMenu="MainMenu.xml">
+	<SkinAnimationGroup Id="100" LayoutWidth="600" LayoutHeight="32" AlignParentLeft="0" AlignParentTop="40">
+		<SkinRadioButton Id="101" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="IDS_LAYOUT_SHOW" Image="TabButton.png" Layout="TabButton.xml" AlignParentLeft="0" BindView="1100" Checked="true"/>
+		<SkinRadioButton Id="102" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="IDS_CONTROL_SHOW" Image="TabButton.png" Layout="TabButton.xml" AlignParentLeft="100" BindView="1200"/>
+		<SkinRadioButton Id="103" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="IDS_COMPONENT_SHOW" Image="TabButton.png" Layout="TabButton.xml" AlignParentLeft="200" BindView="1300"/>
+		<SkinRadioButton Id="104" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="IDS_COMMON_SHOW" Image="TabButton.png" Layout="TabButton.xml" AlignParentLeft="300" BindView="1400"/>
+		<SkinRadioButton Id="105" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="IDS_ANIMATION" Image="TabButton.png" Layout="TabButton.xml" AlignParentLeft="400" BindView="1500"/>
+		<SkinRadioButton Id="106" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="IDS_ADVANCED" Image="TabButton.png" Layout="TabButton.xml" AlignParentLeft="500" BindView="1600"/>
+	</SkinAnimationGroup>
+	<SkinRelativeLayout AlignParentLeft="10" AlignParentRight="0" AlignParentTop="72" AlignParentBottom="0">
+		<SwitchAnimationHost Id="1000" LayoutWidth="FillParent" LayoutHeight="FillParent" Animation="LeftRightSlide">
+			<SkinRelativeLayout Id="1100" LayoutWidth="FillParent" LayoutHeight="FillParent">
+				<SkinListView LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml">
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_LAYOUT_SHOW1" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="8"/>
+							<SkinButton Id="11011" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="11012" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_LAYOUT_SHOW2" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="11021" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="11022" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_LAYOUT_SHOW3" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="11031" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="11032" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_LAYOUT_SHOW4" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="11041" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="11042" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_LAYOUT_SHOW5" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="11051" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="11052" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_LAYOUT_SHOW6" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="11061" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="11062" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_LAYOUT_SHOW7" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="11071" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="11072" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+				</SkinListView>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="1200" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+				<SkinListView LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml">
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW1" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="8"/>
+							<SkinButton Id="12011" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12012" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW2" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12021" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12022" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW3" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12031" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12032" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW4" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12041" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12042" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW5" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12051" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12052" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW6" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12061" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12062" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW7" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12071" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12072" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW8" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12081" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12082" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW9" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12091" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12092" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW10" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12101" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12102" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW11" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12111" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12112" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW12" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12121" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12122" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW13" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12131" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12132" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW14" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12141" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12142" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW15" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12151" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12152" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW16" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12161" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12162" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW17" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12171" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12172" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW18" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12181" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12182" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW19" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12191" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12192" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_CONTROL_SHOW20" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="12201" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="12202" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+				</SkinListView>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="1300" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+				<SkinListView LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml">
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="280">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW1" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="8"/>
+							<SkinButton Id="13011" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_MENU1" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="13012" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_MENU2" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="83"/>
+							<SkinButton Id="13013" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_MENU3" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="133"/>
+							<SkinButton Id="13014" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_MENU4" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="183"/>
+							<SkinButton Id="13015" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_MENU5" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="233"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW2" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="13021" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW3" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="13031" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW4" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="13041" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW5" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="13051" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW6" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="13061" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW7" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="13071" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW8" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="13081" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_COMPONENT_SHOW9" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="13091" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+				</SkinListView>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="1400" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+				<SkinListView LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml">
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_DIALOG_SHOW1" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="8"/>
+							<SkinButton Id="14011" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_DIALOG_SHOW2" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="14021" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_DIALOG_SHOW3" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="14031" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_DIALOG_SHOW4" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="14041" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_DIALOG_SHOW5" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="14051" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+				</SkinListView>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="1500" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+				<SkinListView LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml">
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="280">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_DIALOG_ANIMATION1" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="8"/>
+							<SkinButton Id="15011" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG1" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="15021" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+							<SkinButton Id="15012" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG2" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="83"/>
+							<SkinButton Id="15022" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="83"/>
+							<SkinButton Id="15013" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG3" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="133"/>
+							<SkinButton Id="15023" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="133"/>
+							<SkinButton Id="15014" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG4" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="183"/>
+							<SkinButton Id="15024" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="183"/>
+							<SkinButton Id="15015" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG5" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="233"/>
+							<SkinButton Id="15025" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="233"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="180">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_DIALOG_ANIMATION2" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="15031" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG6" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="15041" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+							<SkinButton Id="15032" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG7" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="83"/>
+							<SkinButton Id="15042" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="83"/>
+							<SkinButton Id="15033" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG8" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="133"/>
+							<SkinButton Id="15043" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="133"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="180">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_DIALOG_ANIMATION3" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="15051" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG6" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="15061" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+							<SkinButton Id="15052" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG9" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="83"/>
+							<SkinButton Id="15062" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="83"/>
+							<SkinButton Id="15053" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_POPUP_DIALOG10" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="133"/>
+							<SkinButton Id="15063" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="133"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_SWITCH_ANIMATION1" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="8"/>
+							<SkinButton Id="15071" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="15072" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_SWITCH_ANIMATION2" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="15081" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="15082" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_SLIDE_ANIMATION1" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="8"/>
+							<SkinButton Id="15091" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="15092" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_HIDE_ANIMATION1" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="15101" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="15102" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+					<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_HIDE_ANIMATION2" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="15111" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_SHOW" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+							<SkinButton Id="15112" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_VIEW_CODE" Image="Button.png" Layout="Button.xml" AlignParentLeft="160" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+				</SkinListView>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="1600" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+				<SkinListView LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml" AllowGetChild="true" >
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_ADVANCED_TRAY" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+							<SkinButton Id="16011" LayoutWidth="100" LayoutHeight="30" ChildText1="IDS_FLASH_TRAY_ICON" Image="Button.png" Layout="Button.xml" AlignParentLeft="20" AlignParentTop="33"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="100">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_ADVANCED_LANGUAGE" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+								<SkinComboBox Id="16021" LayoutWidth="100" LayoutHeight="30" AlignParentLeft="20" AlignParentTop="33" Layout="ComboBox.xml" Image="Edit.png" OptionText="IDS_LANGUAGE_2052,IDS_LANGUAGE_1028,IDS_LANGUAGE_1033"/>
+								<SkinTextView Id="16022" LayoutWidth="240" LayoutHeight="30" AlignParentLeft="20" ToBottomOf="16021,0" Text="IDS_RESTART_CLIENT_TIPS" FontColor="ID_COLOR_DISABLE"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+					<SkinListItem LayoutWidth="FillParent" LayoutHeight="80">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRelativeLayout Layout="SeparatorLine.xml" ChildText1="IDS_ADVANCED_FONT_SIZE" LayoutHeight="30" AlignParentLeft="5" AlignParentTop="0" AlignParentRight="0"/>
+								<SkinComboBox Id="16031" LayoutWidth="100" LayoutHeight="30" AlignParentLeft="20" AlignParentTop="33" Layout="ComboBox.xml" Image="Edit.png" OptionText="IDS_FONT_NORMAL,IDS_FONT_BIGGER,IDS_FONT_BIGGEST"/>
+						</SkinRelativeLayout>
+					</SkinListItem>
+				</SkinListView>
+			</SkinRelativeLayout>
+		</SwitchAnimationHost>
+	</SkinRelativeLayout>
+</SkinDialog>

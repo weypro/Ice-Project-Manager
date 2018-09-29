@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{90FE306D-6176-4EAC-A748-C45B38585B2C}</ProjectGuid>
+    <RootNamespace>My360Safe</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\bin\debug\</OutDir>
+    <IntDir>..\..\obj\$(TargetName)\debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\bin\release\</OutDir>
+    <IntDir>..\..\obj\$(TargetName)\release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include\SkinUI;..\third;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\lib\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies />
+      <ImportLibrary>..\..\lib\debug\$(TargetName).lib</ImportLibrary>
+      <ProgramDatabaseFile>..\..\pdb\debug\$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\include\SkinUI;..\third;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\..\lib\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies />
+      <ProgramDatabaseFile>..\..\pdb\release\$(TargetName).pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\..\lib\release\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddressBookLayout.cpp" />
+    <ClCompile Include="AppHelper.cpp" />
+    <ClCompile Include="ChatLayout.cpp" />
+    <ClCompile Include="ChatMsgView.cpp" />
+    <ClCompile Include="CommonView.cpp" />
+    <ClCompile Include="ConversationDetailLayout.cpp" />
+    <ClCompile Include="ConversationInfoLayout.cpp" />
+    <ClCompile Include="ConversationLayout.cpp" />
+    <ClCompile Include="ConversationSlideLayout.cpp" />
+    <ClCompile Include="ConversationView.cpp" />
+    <ClCompile Include="ConvListStore.cpp" />
+    <ClCompile Include="AddressBookView.cpp" />
+    <ClCompile Include="DeptInfoLayout.cpp" />
+    <ClCompile Include="DeptStore.cpp" />
+    <ClCompile Include="ExtInfoStore.cpp" />
+    <ClCompile Include="GroupInfoLayout.cpp" />
+    <ClCompile Include="GroupMemberStore.cpp" />
+    <ClCompile Include="GroupStore.cpp" />
+    <ClCompile Include="GroupView.cpp" />
+    <ClCompile Include="IMClient.cpp" />
+    <ClCompile Include="LoginLayout.cpp" />
+    <ClCompile Include="MainDialog.cpp" />
+    <ClCompile Include="MainLayout.cpp" />
+    <ClCompile Include="SelectUserDialog.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UserInfoDialog.cpp" />
+    <ClCompile Include="UserInfoLayout.cpp" />
+    <ClCompile Include="UserStore.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\SkinUI\SkinApplication.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinCommon.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinControl.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinDefine.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinDialog.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinFunction.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinUI.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinView.h" />
+    <ClInclude Include="..\Include\SkinUI\SkinWindow.h" />
+    <ClInclude Include="AddressBookLayout.h" />
+    <ClInclude Include="AppHelper.h" />
+    <ClInclude Include="ChatLayout.h" />
+    <ClInclude Include="ChatMsgView.h" />
+    <ClInclude Include="CommonView.h" />
+    <ClInclude Include="ConversationDetailLayout.h" />
+    <ClInclude Include="ConversationInfoLayout.h" />
+    <ClInclude Include="ConversationLayout.h" />
+    <ClInclude Include="ConversationSlideLayout.h" />
+    <ClInclude Include="ConversationView.h" />
+    <ClInclude Include="ConvListStore.h" />
+    <ClInclude Include="AddressBookView.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="DeptInfoLayout.h" />
+    <ClInclude Include="DeptStore.h" />
+    <ClInclude Include="ExtInfoStore.h" />
+    <ClInclude Include="GroupInfoLayout.h" />
+    <ClInclude Include="GroupMemberStore.h" />
+    <ClInclude Include="GroupStore.h" />
+    <ClInclude Include="GroupView.h" />
+    <ClInclude Include="IMClient.h" />
+    <ClInclude Include="LoginLayout.h" />
+    <ClInclude Include="MainDialog.h" />
+    <ClInclude Include="MainLayout.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelectUserDialog.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UserInfoDialog.h" />
+    <ClInclude Include="UserInfoLayout.h" />
+    <ClInclude Include="UserStore.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="IMClient.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IMClient.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

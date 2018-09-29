@@ -1,0 +1,5 @@
+﻿<FontFamily>
+	<Fonts>
+		<Font Id="ID_FONT_HEAD_6" Size="6" Bold="false" Italic="false" Strikeout="false" Underline="false"/>
+	</Fonts>
+</FontFamily>

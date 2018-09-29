@@ -1,0 +1,10 @@
+﻿<SkinDialog DefaultWidth="445" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW17" Animation="SizeChange">
+	<SkinRelativeLayout LayoutWidth="150" AlignParentLeft="15" AlignParentTop="35" AlignParentBottom="15" BkgColor="ID_COLOR_WHITE" Border="ID_COLOR_LINE">
+		<SkinTreeView Id="101" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="2" AlignParentBottom="2" VScrollBar="VScrollBar.xml">
+		</SkinTreeView>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout LayoutWidth="250" AlignParentRight="15" AlignParentTop="35" AlignParentBottom="15" BkgColor="ID_COLOR_WHITE" Border="ID_COLOR_LINE">
+		<SkinTreeView Id="201" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="2" AlignParentBottom="2" VScrollBar="VScrollBar.xml">
+		</SkinTreeView>
+	</SkinRelativeLayout>
+</SkinDialog>

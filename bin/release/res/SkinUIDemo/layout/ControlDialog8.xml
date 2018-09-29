@@ -1,0 +1,16 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="600" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW8" Animation="SizeChange">
+	<SkinEditView LayoutHeight="28" Image="Edit.png" Tips="UpperCase" UpperCase="true" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="50"/>
+	<SkinEditView LayoutHeight="28" Image="Edit.png" Tips="LowerCase" LowerCase="true" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="90"/>
+	<SkinEditView LayoutHeight="28" Image="Edit.png" Tips="Password" Password="true" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="130"/>
+	<SkinEditView LayoutHeight="28" Image="Edit.png" Tips="ReadOnly" ReadOnly="true" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="170"/>
+	<SkinEditView LayoutHeight="28" Image="Edit.png" Tips="Number" Number="true" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="210"/>
+	<SkinEditView LayoutHeight="28" Image="Edit.png" Tips="Limit" Limit="10" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="250"/>
+	<SkinEditView LayoutHeight="68" Image="Edit.png" Tips="MultiLine" MultiLine="true" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="290" VScrollBar="VScrollBar.xml"/>
+	<SkinEditView Id="100" AlignParentBottom="120" Image="Edit.png" Tips="RichEdit" MultiLine="true" RichEdit="true" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="370" VScrollBar="VScrollBar.xml"/>
+	<SkinButton Id="101" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="追加文本" Image="Button.png" Layout="Button.xml" AlignParentLeft="50" AlignParentBottom="70" PressDownOffset="1"/>
+	<SkinButton Id="102" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="追加链接" Image="Button.png" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentBottom="70" PressDownOffset="1"/>
+	<SkinButton Id="103" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="追加图片" Image="Button.png" Layout="Button.xml" AlignParentRight="50" AlignParentBottom="70" PressDownOffset="1"/>
+	<SkinButton Id="104" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="插入文本" Image="Button.png" Layout="Button.xml" AlignParentLeft="50" AlignParentBottom="20" PressDownOffset="1"/>
+	<SkinButton Id="105" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="插入链接" Image="Button.png" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentBottom="20" PressDownOffset="1"/>
+	<SkinButton Id="106" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="插入图片" Image="Button.png" Layout="Button.xml" AlignParentRight="50" AlignParentBottom="20" PressDownOffset="1"/>
+</SkinDialog>

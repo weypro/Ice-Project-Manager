@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="960" DefaultHeight="640" MinWidth="960" MinHeight="640" Resize="true" ThemeHeight="-1" Drag="File;View" SysButton="SKIN;MIN;MAX;CLOSE" Icon="128" TrayMenu="TrayMenu.xml">
+
+</SkinDialog>

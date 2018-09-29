@@ -1,0 +1,6 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW5" Animation="SizeChange">
+	<SkinButton Id="101" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="Button" Image="Button.png" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentTop="50" PressDownOffset="1"/>
+	<SkinButton Id="102" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ChildText2="" ChildImage1="Icon.png" Image="IconButton.png" Layout="IconButton.xml" AlignParentHorizontalCenter="0" AlignParentTop="100" PressDownOffset="1"/>
+	<SkinButton Id="103" LayoutWidth="WrapContent" LayoutHeight="24" ChildText2="IconTextButton" ChildImage1="Icon.png" Image="IconButton.png" Layout="IconTextButton.xml" AlignParentHorizontalCenter="0" AlignParentTop="150" PressDownOffset="1"/>
+	<SkinButton Id="104" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="BitmapButton.png" AlignParentHorizontalCenter="0" AlignParentTop="200" PressDownOffset="1"/>
+</SkinDialog>

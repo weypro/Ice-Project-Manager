@@ -1,0 +1,11 @@
+﻿<SkinRelativeLayout>
+	<SkinRelativeLayout Id="21100">
+		<ConversationListView Id="21110" LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml" EmptyTips="IDS_EMPTY_TIPS"/>
+	</SkinRelativeLayout>
+	<SkinSplitter Id="21200" LayoutWidth="1" LayoutHeight="FillParent" HorzSplitter="true" AlignParentLeft="240" Min="240" Max="340" Color="ID_COLOR_LINE"/>
+	<SkinRelativeLayout Id="21300">
+		<SkinRelativeLayout Id="21310" LayoutWidth="FillParent" LayoutHeight="FillParent">
+			<SkinImageView Id="21311" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="EmptyTips.png"/>
+		</SkinRelativeLayout>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

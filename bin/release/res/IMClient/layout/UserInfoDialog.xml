@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="350" DefaultHeight="470" Caption="IDS_USER_INFO" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<UserInfoLayout Id="40000" LayoutWidth="300" LayoutHeight="440" AlignParentHorizontalCenter="0" AlignParentBottom="0" Layout="UserInfoLayout.xml"/>
+</SkinDialog>

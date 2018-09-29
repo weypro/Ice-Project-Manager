@@ -1,0 +1,14 @@
+﻿<SkinDialog DefaultWidth="500" DefaultHeight="480" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW20">
+	<MyCefWebView Id="101" LayoutWidth="225" AlignParentLeft="15" AlignParentTop="45" AlignParentBottom="15" Url="www.baidu.com"/>
+	<SkinRelativeLayout Id="102" ToRightOf="101,15" AlignParentRight="15" AlignParentTop="61" AlignParentBottom="15">
+		<SkinButton Id="201" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(1个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="0" PressDownOffset="1"/>
+		<SkinButton Id="202" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(2个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="42" PressDownOffset="1"/>
+		<SkinButton Id="203" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(3个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="84" PressDownOffset="1"/>
+		<SkinButton Id="204" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(4个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="126" PressDownOffset="1"/>
+		<SkinButton Id="205" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(5个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="168" PressDownOffset="1"/>
+		<SkinButton Id="206" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(6个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="210" PressDownOffset="1"/>
+		<SkinButton Id="207" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(7个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="252" PressDownOffset="1"/>
+		<SkinButton Id="208" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(8个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="294" PressDownOffset="1"/>
+		<SkinButton Id="209" LayoutWidth="FillParent" LayoutHeight="22" ChildText1="C++调用JS方法(9个参数)" Image="Button.png" Layout="Button.xml" AlignParentTop="336" PressDownOffset="1"/>
+	</SkinRelativeLayout>
+</SkinDialog>

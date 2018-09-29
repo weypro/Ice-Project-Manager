@@ -1,0 +1,40 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_LAYOUT_SHOW7" Animation="SizeChange">
+	<SkinGridLayout Id="1000" AlignParentLeft="15" AlignParentTop="45" AlignParentRight="15" AlignParentBottom="15" ColumnCount="3">
+		<SkinRelativeLayout BkgColor="ID_COLOR_RED">
+			<SkinTextView Text="1" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_GREEN">
+			<SkinTextView Text="2" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_BLUE">
+			<SkinTextView Text="3" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_BLUE">
+			<SkinTextView Text="4" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_BLACK">
+			<SkinTextView Text="5" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_RED">
+			<SkinTextView Text="6" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_RED">
+			<SkinTextView Text="7" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_GREEN">
+			<SkinTextView Text="8" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_BLUE">
+			<SkinTextView Text="9" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_BLUE">
+			<SkinTextView Text="10" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_BLACK">
+			<SkinTextView Text="11" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout BkgColor="ID_COLOR_RED">
+			<SkinTextView Text="12" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+	</SkinGridLayout>
+</SkinDialog>

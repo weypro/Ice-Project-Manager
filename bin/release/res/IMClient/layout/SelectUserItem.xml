@@ -1,0 +1,5 @@
+<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<AvatarView Id="100011" LayoutWidth="22" LayoutHeight="22" AlignParentLeft="20" AlignParentVerticalCenter="true"/>
+	<SkinCheckBox Id="100003" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="10" AlignParentVerticalCenter="true" Layout="CheckBox.xml" ChildImage1="CheckBox.png"/>
+	<ConversationNameView Id="100012" ToRightOf="100011,5" ToLeftOf="100003,5" LayoutHeight="FillParent" AutoLayout="true"/>
+</SkinRelativeLayout>

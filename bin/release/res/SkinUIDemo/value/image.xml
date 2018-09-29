@@ -1,0 +1,6 @@
+﻿<Images>
+	<Image Name="TabButton.png" Frame="3"/>
+	<Image Name="BitmapButton.png" Frame="4"/>
+	<Image Name="MultiImage.png" Frame="17"/>
+	<Image Name="Progress2.png" Frame="2" Patch="7,2,7,2"/>
+</Images>

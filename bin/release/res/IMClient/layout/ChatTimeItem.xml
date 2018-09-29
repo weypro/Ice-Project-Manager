@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinEditView Id="100001" AlignParentVerticalCenter="0" AlignParentHorizontalCenter="0" ReadOnly="true" MouseWheel="false" FontColor="ID_COLOR_TEXT_TIPS"/>
+</SkinRelativeLayout>

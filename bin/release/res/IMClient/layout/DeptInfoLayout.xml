@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout>
+	<SkinLine Id="40001" LayoutWidth="FillParent" LayoutHeight="1" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Color="ID_COLOR_LINE"/> 
+	<SkinTextView Id="40011" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" ToTopOf="40001,20" AutoLayout="true" FontStyle="ID_FONT_BOLD_BIG_BIG"/>
+	<SkinTextView Id="40012" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" ToBottomOf="40001,20" AutoLayout="true" FontStyle="ID_FONT_BIG_BIG" FontColor="ID_COLOR_TEXT_LIGHT"/>
+</SkinRelativeLayout>

@@ -1,0 +1,6 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW11" Animation="SizeChange">
+	<SkinProgress Id="101" LayoutHeight="9" AlignParentLeft="10" AlignParentRight="10" AlignParentVerticalCenter="-50" Range="100" Pos="0" Image="Progress.png"/>
+	<SkinButton Id="201" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="增加进度, Step=4" Image="Button.png" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="-25" PressDownOffset="1"/>
+	<SkinProgress Id="102" LayoutHeight="9" AlignParentLeft="10" AlignParentRight="10" AlignParentVerticalCenter="50" Range="100" Pos="0" Image="Progress2.png"/>
+	<SkinButton Id="202" LayoutWidth="WrapContent" LayoutHeight="30" ChildText1="增加进度, Step=10" Image="Button.png" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="75" PressDownOffset="1"/>
+</SkinDialog>

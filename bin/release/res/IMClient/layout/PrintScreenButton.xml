@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinHorizontalLayout LayoutWidth="32" LayoutHeight="20">
+		<SkinButton Id="133021" LayoutWidth="22" LayoutHeight="20"/>
+		<SkinButton Id="133023" LayoutWidth="10" LayoutHeight="20"/>
+	</SkinHorizontalLayout>
+</SkinRelativeLayout>

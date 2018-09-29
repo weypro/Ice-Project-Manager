@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout>
+	<UserInfoLayout Id="40000" LayoutWidth="300" LayoutHeight="440" AlignParentHorizontalCenter="0" AlignParentTop="0" Layout="UserInfoLayout.xml"/>
+</SkinRelativeLayout>

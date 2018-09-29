@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW15" Animation="SizeChange">
+	<SkinTimeView LayoutWidth="200" LayoutHeight="30" Layout="TimeView.xml" Image="Edit.png" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="true" />
+</SkinDialog>

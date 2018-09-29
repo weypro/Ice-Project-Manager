@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="500" DefaultHeight="360" SysButton="MIN;CLOSE" Icon="128" Caption="IDS_APP_NAME" Animation="SizeChange">
+	<SkinTextView Id="1001" FontStyle="ID_FONT_BOLD_BIG_BIG" AlignParentLeft="120" AlignParentRight="10" AlignParentTop="120" AlignParentBottom="10" MultiLine="true"/>
+</SkinDialog>

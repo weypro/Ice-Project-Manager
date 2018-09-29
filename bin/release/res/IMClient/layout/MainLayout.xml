@@ -1,0 +1,20 @@
+﻿<MainLayout>
+	<SlideParentLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+		<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="60" AlignParentLeft="10" AlignParentTop="0">
+			<SkinImageView Id="20001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="Logo.png"/>
+		</SkinHorizontalLayout>
+		<SkinRelativeLayout LayoutWidth="FillParent" AlignParentTop="60" AlignParentBottom="0">
+			<SkinRelativeLayout Id="20100" LayoutWidth="60" LayoutHeight="FillParent" AlignParentLeft="0">
+				<AvatarView Id="20101" LayoutWidth="40" LayoutHeight="40" AlignParentHorizontalCenter="0" AlignParentTop="40" Tips="IDS_USER_INFO"/>
+				<SkinRadioGroup Id="20110" AlignParentLeft="0" LayoutWidth="FillParent" LayoutHeight="120" ToBottomOf="20101,64" Drag="View">
+					<SkinRadioButton Id="20111" LayoutWidth="FillParent" LayoutHeight="60" AlignParentTop="0" BindView="21000" Image="MainTabMessage.png" Tips="IDS_CONVERSATION" Checked="true"/>
+					<SkinRadioButton Id="20112" LayoutWidth="FillParent" LayoutHeight="60" AlignParentTop="60" BindView="22000" Image="MainTabAddressBook.png" Tips="IDS_ADDRESSBOOK" />
+				</SkinRadioGroup>
+				<SkinMenuButton Id="20121" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentBottom="12" Image="MainMenu.png" Tips="IDS_MAIN_MENU" Menu="MainMenu.xml" PopupDirection="RightTop"/>
+				<SkinButton Id="20122" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" ToTopOf="20121,20" Image="CreateGroup.png" Tips="IDS_CREATE_GROUP"/>
+			</SkinRelativeLayout>
+			<ConversationLayout Id="21000" AlignParentTop="0" AlignParentBottom="0" ToRightOf="20100,1" AlignParentRight="0" Layout="ConversationLayout.xml"/>
+			<AddressBookLayout Id="22000" AlignParentTop="0" AlignParentBottom="0" ToRightOf="20100,1" AlignParentRight="0" Layout="AddressBookLayout.xml" Visible="false"/>
+		</SkinRelativeLayout>
+	</SlideParentLayout>
+</MainLayout>

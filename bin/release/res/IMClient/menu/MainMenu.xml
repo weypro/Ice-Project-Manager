@@ -1,0 +1,8 @@
+﻿<Menu>
+	<MenuItem Id="1021" Text="IDS_USER_INFO" Icon="PersonalInfo.png"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1022" Text="IDS_SYSTEM_CONFIG" Icon="SystemConfig.png"/>
+	<MenuItem Id="1023" Text="IDS_MODIFY_PASSWORD" Icon="ModifyPassword.png"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1024" Text="IDS_QUIT_LOGIN" Icon="QuitLogin.png"/>
+</Menu>

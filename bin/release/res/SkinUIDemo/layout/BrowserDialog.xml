@@ -1,0 +1,5 @@
+﻿<SkinDialog DefaultWidth="800" DefaultHeight="600" Resize="true" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW10" Animation="SizeChange">
+	<SkinEditView Id="100" LayoutHeight="26" Image="Edit.png" AlignParentLeft="2" AlignParentRight="65" AlignParentTop="32"/>
+	<SkinButton Id="101" LayoutWidth="60" LayoutHeight="26" Image="Button.png" Layout="Button.xml" AlignParentRight="2" AlignParentTop="32" PressDownOffset="1" ChildText1="IDS_BROWSER"/>
+	<SkinOSWebView Id="102" AlignParentLeft="0" AlignParentRight="0" AlignParentTop="60" AlignParentBottom="0" URL="www.workchat.com" EmptyTips="正在加载，请稍候..."/>
+</SkinDialog>

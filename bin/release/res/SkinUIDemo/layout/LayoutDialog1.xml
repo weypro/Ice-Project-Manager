@@ -1,0 +1,16 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_LAYOUT_SHOW1" Animation="SizeChange" ThemeHeight="65">
+	<SkinRadioGroup Id="100" LayoutWidth="210" LayoutHeight="30" AlignParentLeft="0" AlignParentTop="35">
+		<SkinRadioButton Id="101" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="TabFrame1" Image="TabButton.png" Layout="TabButton.xml" BindView="1100" AlignParentLeft="0" Checked="true"/>
+		<SkinRadioButton Id="102" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="TabFrame2" Image="TabButton.png" Layout="TabButton.xml" BindView="1200" AlignParentLeft="100" Radius="5"/>
+	</SkinRadioGroup>
+	<SkinRelativeLayout AlignParentLeft="10" AlignParentTop="80" AlignParentRight="10" AlignParentBottom="10">
+		<SkinFrameLayout Id="1000" AlignParentLeft="15" AlignParentTop="15" AlignParentRight="15" AlignParentBottom="15">
+			<SkinRelativeLayout Id="1100" BkgColor="ID_COLOR_RED">
+				<SkinTextView Text="1" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="1200" BkgColor="ID_COLOR_GREEN" Visible="false">
+				<SkinTextView Text="2" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+			</SkinRelativeLayout>
+		</SkinFrameLayout>
+	</SkinRelativeLayout>
+</SkinDialog>

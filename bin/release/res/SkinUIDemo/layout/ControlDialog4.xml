@@ -1,0 +1,8 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW4" Animation="SizeChange">
+	<SkinImageView LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="Image.png" AlignParentLeft="20" AlignParentVerticalCenter="-50"/>
+	<SkinTextView LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentLeft="5" AlignParentVerticalCenter="-15" Text="不可点击的图片" />
+	<SkinImageView Id="101" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="Image.png" AlignParentLeft="20" AlignParentVerticalCenter="50" ClickAble="true"/>
+	<SkinTextView LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentLeft="5" AlignParentVerticalCenter="85" Text="可以点击的图片" />
+	<SkinImageView LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="Image.gif" AutoPlay="true" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0"/>
+	<SkinImageViewEx LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="MultiImage.png" TotalFrame="17" AutoPlay="true" AlignParentRight="20" AlignParentVerticalCenter="0"/>
+</SkinDialog>

@@ -1,0 +1,4 @@
+<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<AvatarView Id="100011" LayoutWidth="22" LayoutHeight="22" AlignParentLeft="10" AlignParentVerticalCenter="true"/>
+	<ConversationNameView Id="100012" ToRightOf="100011,5" AlignParentRight="10" LayoutHeight="FillParent" AutoLayout="true"/>
+</SkinRelativeLayout>

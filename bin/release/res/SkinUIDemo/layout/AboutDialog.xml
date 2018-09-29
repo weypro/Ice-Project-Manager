@@ -1,0 +1,5 @@
+﻿<SkinDialog DefaultWidth="375" DefaultHeight="200" SysButton="CLOSE" Icon="128" Caption="IDS_ABOUT" Animation="SizeChange" EscCloseDialog="true">
+	<SkinImageView LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="Logo.png" AlignParentLeft="20" AlignParentVerticalCenter="0"/>
+	<SkinTextView Id="101" FontColor="ID_COLOR_TEXT" AlignParentLeft="88" AlignParentRight="30" AlignParentVerticalCenter="-12" LayoutHeight="24" FontFormat="Left,Center"/>
+	<SkinTextView Id="102" FontColor="ID_COLOR_TEXT" AlignParentLeft="88" AlignParentRight="30" AlignParentVerticalCenter="12" LayoutHeight="24" FontFormat="Left,Center"/>
+</SkinDialog>

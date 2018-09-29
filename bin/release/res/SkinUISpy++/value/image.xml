@@ -1,0 +1,6 @@
+﻿<Images>
+	<Image Name="Button2.png" Frame="3"/>
+	<Image Name="TabButton.png" Frame="3"/>
+	<Image Name="BitmapButton.png" Frame="4"/>
+	<Image Name="MultiImage.png" Frame="17"/>
+</Images>

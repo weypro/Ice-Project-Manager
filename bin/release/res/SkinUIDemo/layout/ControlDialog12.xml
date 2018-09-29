@@ -1,0 +1,14 @@
+﻿<SkinDialog DefaultWidth="540" DefaultHeight="370" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW12" Animation="SizeChange">
+	<SkinSplitterLayout AlignParentLeft="20" AlignParentRight="20" AlignParentTop="50" AlignParentBottom="20">
+		<SkinRelativeLayout Color="ID_COLOR_RED">
+		</SkinRelativeLayout>
+		<SkinSplitter LayoutHeight="FillParent" LayoutWidth="2" AlignParentLeft="150" Min="100" Max="400" Image="HSplitter.png" HorzSplitter="true"/>
+		<SkinSplitterLayout>
+			<SkinRelativeLayout Color="ID_COLOR_GREEN">
+			</SkinRelativeLayout>
+			<SkinSplitter LayoutWidth="FillParent" LayoutHeight="2" AlignParentBottom="150" Min="100" Max="200" Image="VSplitter.png"/>
+			<SkinRelativeLayout Color="ID_COLOR_BLUE">
+			</SkinRelativeLayout>
+		</SkinSplitterLayout>
+	</SkinSplitterLayout>
+</SkinDialog>

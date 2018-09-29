@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout>
+	<GroupInfoLayout Id="40000" LayoutWidth="300" LayoutHeight="200" AlignParentHorizontalCenter="0" AlignParentTop="0" Layout="GroupInfoLayout.xml"/>
+	<SkinLine LayoutWidth="300" LayoutHeight="1" ToBottomOf="40000,10" AlignParentHorizontalCenter="0" Color="ID_COLOR_LINE"/>
+	<GroupMemberListView Id="40300" LayoutWidth="320" ToBottomOf="40000,20" AlignParentHorizontalCenter="0" AlignParentBottom="0" VScrollBar="VScrollBar.xml" EmptyTips="IDS_EMPTY_TIPS"/>
+</SkinRelativeLayout>

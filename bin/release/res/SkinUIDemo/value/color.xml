@@ -1,0 +1,7 @@
+﻿<ColorTable>
+	<Color Id="ID_COLOR_BLACK">255,60,60,60</Color>
+	<Color Id="ID_COLOR_MAIN_TAB_LINE">50,40,51,60</Color>
+	<Color Id="ID_COLOR_RED">255,255,0,0</Color>
+	<Color Id="ID_COLOR_GREEN">255,0,255,0</Color>
+	<Color Id="ID_COLOR_BLUE">255,0,0,255</Color>
+</ColorTable>

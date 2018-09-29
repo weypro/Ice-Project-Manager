@@ -1,0 +1,5 @@
+<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent" AlignParentLeft="-5">
+	<SkinTreeItemExpandButton Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="TreeExpand.png" AlignParentVerticalCenter="0"/>
+	<SkinImageView Id="100011" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="100001,5" AlignParentVerticalCenter="true" Image="Dept.png"/>
+	<SkinTextView Id="100012" ToRightOf="100011,5" LayoutWidth="WrapContent" LayoutHeight="FillParent" AutoLayout="true"/>
+</SkinRelativeLayout>

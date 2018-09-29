@@ -1,0 +1,13 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_LAYOUT_SHOW5" Animation="SizeChange">
+	<SkinVertPercentLayout AlignParentTop="45" AlignParentBottom="15" LayoutWidth="100" AlignParentHorizontalCenter="0">
+		<SkinRelativeLayout LayoutWidth="100" LayoutHeight="20" BkgColor="ID_COLOR_RED">
+			<SkinTextView Text="20%" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout LayoutWidth="100" LayoutHeight="30" BkgColor="ID_COLOR_GREEN">
+			<SkinTextView Text="30%" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout LayoutWidth="100" LayoutHeight="50" BkgColor="ID_COLOR_BLUE">
+			<SkinTextView Text="50%" LayoutWidth="FillParent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+	</SkinVertPercentLayout>
+</SkinDialog>

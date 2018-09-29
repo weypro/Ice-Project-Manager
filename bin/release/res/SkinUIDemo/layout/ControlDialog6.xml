@@ -1,0 +1,4 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW6" Animation="SizeChange">
+	<SkinCheckBox Id="101" LayoutWidth="200" LayoutHeight="30" ChildText2="IDS_CONTROL_SHOW_TEXT8" Layout="CheckBoxWithText.xml" AlignParentLeft="50" AlignParentTop="75"/>
+	<SkinCheckBox Id="102" LayoutWidth="200" LayoutHeight="30" ChildText3="IDS_CONTROL_SHOW_TEXT9" ChildImage2="Icon.png" Layout="CheckBoxWidthIcon.xml" AlignParentLeft="50" AlignParentTop="175"/>
+</SkinDialog>

@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout>
+	<SkinImageView Id="100001" LayoutWidth="36" LayoutHeight="36" AlignParentHorizontalCenter="0" AlignParentTop="4"/>
+	<SkinTextView Id="100002" LayoutWidth="FillParent" LayoutHeight="20" AlignParentBottom="0" HorzAlignment="Center"/>
+</SkinRelativeLayout>

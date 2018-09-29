@@ -1,0 +1,4 @@
+﻿<SkinDialog DefaultWidth="800" DefaultHeight="600" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW10" Animation="SizeChange">
+	<SkinScrollBar Id="100" LayoutWidth="10" AlignParentRight="5" AlignParentTop="50" AlignParentBottom="20" Layout="VScrollBar.xml"/>
+	<SkinScrollBar Id="200" LayoutHeight="10" AlignParentBottom="5" AlignParentLeft="20" AlignParentRight="20" Layout="VScrollBar.xml"/>
+</SkinDialog>

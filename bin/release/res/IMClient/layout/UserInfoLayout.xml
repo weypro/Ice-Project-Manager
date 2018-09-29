@@ -1,0 +1,31 @@
+﻿<SkinRelativeLayout>
+	<SkinRelativeLayout Id="40001" LayoutWidth="FillParent" LayoutHeight="120" AlignParentTop="0">
+		<AvatarView Id="40002" LayoutWidth="80" LayoutHeight="80" AlignParentLeft="0" AlignParentVerticalCenter="0" Tips="IDS_VIEW_AVATAR"/>
+		<ConversationNameView Id="40003" LayoutHeight="WrapContent" ToRightOf="40002,10" AlignParentRight="10" AlignParentVerticalCenter="0" AutoLayout="true" FontStyle="ID_FONT_BOLD_BIG_BIG"/>
+		<SkinLine LayoutWidth="FillParent" LayoutHeight="1" AlignParentBottom="0" Color="ID_COLOR_LINE"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout Id="40100" LayoutWidth="FillParent" LayoutHeight="245" AlignParentHorizontalCenter="0" ToBottomOf="40001,10">
+		<SkinTextView Id="40101" LayoutWidth="WrapContent" LayoutHeight="30" AlignParentLeft="0" AlignParentTop="0" FontColor="ID_COLOR_TEXT_LIGHT" Text="IDS_GENDER"/>	
+		<SkinTextView Id="40102" LayoutWidth="WrapContent" LayoutHeight="30" AlignParentLeft="0" ToBottomOf="40101,10" FontColor="ID_COLOR_TEXT_LIGHT" Text="IDS_DEPARTMENT"/>
+		<SkinTextView Id="40103" LayoutWidth="WrapContent" LayoutHeight="30" AlignParentLeft="0" ToBottomOf="40102,10" FontColor="ID_COLOR_TEXT_LIGHT" Text="IDS_POSITION"/>
+		<SkinTextView Id="40104" LayoutWidth="WrapContent" LayoutHeight="30" AlignParentLeft="0" ToBottomOf="40103,10" FontColor="ID_COLOR_TEXT_LIGHT" Text="IDS_MOBILE"/>	
+		<SkinTextView Id="40105" LayoutWidth="WrapContent" LayoutHeight="30" AlignParentLeft="0" ToBottomOf="40104,10" FontColor="ID_COLOR_TEXT_LIGHT" Text="IDS_TELPHONE"/>
+		<SkinTextView Id="40106" LayoutWidth="WrapContent" LayoutHeight="30" AlignParentLeft="0" ToBottomOf="40105,10" FontColor="ID_COLOR_TEXT_LIGHT" Text="IDS_EMAIL"/>
+		<SkinEditTextView Id="40111" LayoutHeight="30" AlignParentRight="0" ToRightOf="40101,10" AlignParentTop="0" Image="Edit.png" ReadOnly="true"/>
+		<SkinEditTextView Id="40112" LayoutHeight="30" AlignParentRight="0" ToRightOf="40101,10" ToBottomOf="40101,10" Image="Edit.png" ReadOnly="true"/>
+		<SkinEditTextView Id="40113" LayoutHeight="30" AlignParentRight="0" ToRightOf="40101,10" ToBottomOf="40102,10" Image="Edit.png" ReadOnly="true"/>
+		<SkinEditTextView Id="40114" LayoutHeight="30" AlignParentRight="0" ToRightOf="40101,10" ToBottomOf="40103,10" Image="Edit.png"/>	
+		<SkinEditTextView Id="40115" LayoutHeight="30" AlignParentRight="0" ToRightOf="40101,10" ToBottomOf="40104,10" Image="Edit.png"/>
+		<SkinEditTextView Id="40116" LayoutHeight="30" AlignParentRight="0" ToRightOf="40101,10" ToBottomOf="40105,10" Image="Edit.png"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout Id="40200" LayoutWidth="FillParent" LayoutHeight="60" AlignParentBottom="0" >
+		<SkinLine LayoutWidth="FillParent" LayoutHeight="1" AlignParentTop="0" Color="ID_COLOR_LINE"/>
+		<SkinButton Id="40201" LayoutWidth="200" LayoutHeight="32" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_SEND_MESSAGE"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout Id="40300" LayoutWidth="FillParent" LayoutHeight="60" AlignParentBottom="0" Visible="false">
+		<SkinLine LayoutWidth="FillParent" LayoutHeight="1" AlignParentTop="0" Color="ID_COLOR_LINE"/>
+		<SkinButton Id="40004" LayoutWidth="120" LayoutHeight="32" AlignParentLeft="10" AlignParentVerticalCenter="0" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_EDIT"/>
+		<SkinButton Id="40005" LayoutWidth="120" LayoutHeight="32" AlignParentLeft="10" AlignParentVerticalCenter="0" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_SAVE" Visible="false"/>
+		<SkinButton Id="40201" LayoutWidth="120" LayoutHeight="32" AlignParentRight="10" AlignParentVerticalCenter="0" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_SEND_MESSAGE"/>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

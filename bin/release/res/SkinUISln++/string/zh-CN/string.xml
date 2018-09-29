@@ -1,0 +1,10 @@
+﻿<StringTable>
+	<String Id="IDS_APP_NAME">新建项目</String>
+	<String Id="IDS_PROJECT_NAME_TIPS">请输入项目名称</String>
+	<String Id="IDS_NEW_NOW">立即新建</String>
+	<String Id="IDS_ANALYZING">正在分析...</String>
+	<String Id="IDS_NEW_FINISH">工程新建成功！</String>
+	<String Id="IDS_COPY_FILE_FORMAT">正在拷贝文件%s...</String>
+	<String Id="IDS_REPLACE_FILE_FORMAT">正在替换文件%s...</String>
+	<String Id="IDS_INVALID_PROJECT_NAME_TIPS">无效的项目名称！</String>
+</StringTable>

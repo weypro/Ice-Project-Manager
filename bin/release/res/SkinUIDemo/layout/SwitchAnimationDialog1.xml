@@ -1,0 +1,12 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_SWITCH_ANIMATION1" Animation="SizeChange" ThemeHeight="65">
+	<SkinAnimationGroup Id="100" LayoutWidth="210" LayoutHeight="30" AlignParentLeft="0" AlignParentTop="35">
+		<SkinRadioButton Id="101" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="TabButton1" Image="TabButton.png" Layout="TabButton.xml" BindView="1100" AlignParentLeft="0" Checked="true"/>
+		<SkinRadioButton Id="102" LayoutWidth="100" LayoutHeight="FillParent" ChildText1="TabButton2" Image="TabButton.png" Layout="TabButton.xml" BindView="1200" AlignParentLeft="100" Radius="5"/>
+	</SkinAnimationGroup>
+	<SwitchAnimationHost Id="1000" AlignParentLeft="15" ToBottomOf="100,5" AlignParentRight="15" AlignParentBottom="15" Animation="LeftRightSlide">
+		<SkinRelativeLayout Id="1100" LayoutWidth="FillParent" LayoutHeight="FillParent" Color="ID_COLOR_RED">
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="1200" LayoutWidth="FillParent" LayoutHeight="FillParent" Color="ID_COLOR_GREEN" Visible="false">
+		</SkinRelativeLayout>
+	</SwitchAnimationHost>
+</SkinDialog>

@@ -1,0 +1,11 @@
+﻿<Configs>
+	<DialogRadius>6</DialogRadius>
+	<DialogTitleHeight>30</DialogTitleHeight>
+	<DialogCaptionFontStyle>ID_FONT_BOLD</DialogCaptionFontStyle>
+	<DialogCaptionAlignment>Center</DialogCaptionAlignment>
+	<DialogShadowPatch>12,12,12,12</DialogShadowPatch>
+	<DialogSysButtonRightOffset>0</DialogSysButtonRightOffset>
+	<MenuMinWidth>150</MenuMinWidth>
+	<MenuItemHeight>24</MenuItemHeight>
+	<MenuSeparatorHeight>5</MenuSeparatorHeight>
+</Configs>

@@ -1,0 +1,9 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_HIDE_ANIMATION1" Animation="SizeChange">
+	<SkinButton Id="1000" LayoutWidth="125" LayoutHeight="30" ChildText1="IDS_CLICK_ME" Image="Button.png" Layout="Button.xml" AlignParentRight="10" AlignParentVerticalCenter="0" PressDownOffset="1"/>
+	<HideAnimationHost Id="2000" AlignParentLeft="30" AlignParentRight="150" AlignParentTop="40" AlignParentBottom="10" Animation="LeftRightHide">
+		<SkinRelativeLayout Id="2010" LayoutHeight="FillParent" AlignParentLeft="10" AlignParentRight="100" Color="ID_COLOR_RED">
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="2020" LayoutHeight="FillParent" LayoutWidth="100" AlignParentRight="0" Color="ID_COLOR_GREEN" Visible="false">
+		</SkinRelativeLayout>
+	</HideAnimationHost>
+</SkinDialog>

@@ -1,0 +1,14 @@
+﻿<Images>
+	<Image Name="TabButton.png" Frame="2"/>
+	<Image Name="MainBkg.png" Patch="70,70,4,4"/>
+	<Image Name="MainTabMessage.png" Frame="2"/>
+	<Image Name="MainTabAddressBook.png" Frame="2"/>
+	<Image Name="CreateGroup.png" Frame="2"/>
+	<Image Name="MainMenu.png" Frame="2"/>
+	<Image Name="ViewInfo.png" Frame="2"/>
+	<Image Name="Emotion.png" Frame="3"/>
+	<Image Name="Attachment.png" Frame="3"/>
+	<Image Name="Call.png" Frame="3"/>
+	<Image Name="PrintScreen.png" Frame="3"/>
+	<Image Name="SendMsgButton.png" Frame="3"/>
+</Images>

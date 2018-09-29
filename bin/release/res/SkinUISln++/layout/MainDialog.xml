@@ -1,0 +1,8 @@
+﻿<SkinDialog DefaultWidth="500" DefaultHeight="360" SysButton="MIN;CLOSE" Icon="128" Caption="IDS_APP_NAME" Animation="SizeChange">
+	<SkinEditView Id="1003" Mode="1" LayoutWidth="250" LayoutHeight="30" Image="Edit.png" Tips="IDS_PROJECT_NAME_TIPS" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="-20" />
+	<SkinButton Id="1" Mode="1" LayoutWidth="125" LayoutHeight="30" ChildText1="IDS_NEW_NOW" Image="Button.png" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="20" PressDownOffset="1"/>
+	<SkinProgress Id="1001" Mode="2" LayoutHeight="16" AlignParentLeft="50" AlignParentRight="50" AlignParentVerticalCenter="-15" Image="Progress.png"/>
+	<SkinTextView Id="1002" Mode="2" Text="IDS_ANALYZING" AlignParentLeft="50" AlignParentRight="50" LayoutHeight="24" AlignParentVerticalCenter="15" />
+	<SkinTextView Mode="3" Text="IDS_NEW_FINISH" AlignParentLeft="50" AlignParentRight="50" LayoutHeight="24" AlignParentVerticalCenter="-25" HorzAlignment="Center"/>
+	<SkinButton Id="1004" Mode="3" LayoutWidth="125" LayoutHeight="30" ChildText1="IDS_OK" Image="Button.png" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="25" PressDownOffset="1"/>
+</SkinDialog>

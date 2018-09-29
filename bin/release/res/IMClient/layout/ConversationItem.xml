@@ -1,0 +1,6 @@
+<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<AvatarView Id="100011" LayoutWidth="40" LayoutHeight="40" AlignParentLeft="10" AlignParentVerticalCenter="true"/>
+	<ConversationNameView Id="100012" LayoutHeight="20" ToRightOf="100011,5" AlignParentTop="10" AlignParentRight="50" AutoLayout="true"/>
+	<SkinTextView Id="100013" ToRightOf="100011,5" LayoutHeight="20" AlignParentBottom="10" AlignParentRight="10" AutoLayout="true" FontColor="ID_COLOR_TEXT_LIGHT"/>
+	<SkinTextView Id="100014" ToRightOf="100012,5" LayoutHeight="20" AlignParentTop="10" AlignParentRight="10" AutoLayout="true" FontColor="ID_COLOR_TEXT_LIGHT" HorzAlignmet="Right"/>
+</SkinRelativeLayout>

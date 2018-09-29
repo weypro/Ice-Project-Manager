@@ -1,0 +1,10 @@
+﻿<Menu>
+	<MenuItem Id="1000" Text="IDS_OFFICIAL_WEBSITE"/>
+	<MenuItem Id="1001" Text="IDS_OFFICIAL_WEIBO"/>
+	<MenuItem Id="1002" Text="IDS_FORUM_CENTER"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1003" Text="IDS_ABOUT"/>
+	<MenuItem Id="1004" Text="IDS_HELP"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="2" Text="IDS_QUIT"/>
+</Menu>

@@ -1,0 +1,8 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="300" SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW16" Animation="SizeChange">
+	<SkinLine LayoutHeight="1" AlignParentLeft="10" AlignParentRight="10" AlignParentTop="100" Color="ID_COLOR_DEFAULT12" DashStyle="Solid"/>
+	<SkinLine LayoutHeight="1" AlignParentLeft="10" AlignParentRight="10" AlignParentTop="125" Color="ID_COLOR_DEFAULT12" DashStyle="Dash"/>
+	<SkinLine LayoutHeight="1" AlignParentLeft="10" AlignParentRight="10" AlignParentTop="150" Color="ID_COLOR_DEFAULT12" DashStyle="Dot"/>
+	<SkinLine LayoutHeight="1" AlignParentLeft="10" AlignParentRight="10" AlignParentTop="175" Color="ID_COLOR_DEFAULT12" DashStyle="DashDot"/>
+	<SkinLine LayoutHeight="1" AlignParentLeft="10" AlignParentRight="10" AlignParentTop="200" Color="ID_COLOR_DEFAULT12" DashStyle="DashDotDot"/>
+	<SkinLine LayoutHeight="1" AlignParentLeft="10" AlignParentRight="10" AlignParentTop="225" StartColor="ID_COLOR_DEFAULT12" EndColor="ID_COLOR_WHITE"/>
+</SkinDialog>

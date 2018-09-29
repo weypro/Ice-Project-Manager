@@ -1,0 +1,27 @@
+﻿<SkinRelativeLayout>
+	<SkinRelativeLayout Id="31000" LayoutWidth="FillParent" LayoutHeight="60" AlignParentTop="0">
+		<SkinHorizontalLayout Id="31100" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentRight="10">
+			<SkinButton Id="31101" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="ViewInfo.png" VertAlignment="Center"/>
+		</SkinHorizontalLayout>
+		<SkinVerticalLayout Id="31200" AlignParentLeft="10" ToLeftOf="31100,10" LayoutHeight="FillParent" AlignParentVerticalCenter="0" >
+			<ConversationNameView Id="31201" LayoutWidth="FillParent" LayoutHeight="FillParent" FontStyle="ID_FONT_BOLD_BIG"/>
+		</SkinVerticalLayout>
+		<SkinLine Id="32200" LayoutWidth="FillParent" LayoutHeight="1" AlignParentBottom="0" Color="ID_COLOR_LINE"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout Id="32000" LayoutWidth="FillParent" ToBottomOf="31000,0" AlignParentBottom="0">
+		<SkinRelativeLayout Id="32100" LayoutWidth="FillParent" AlignParentTop="0" AlignParentBottom="160" >
+			<ChatMsgListView Id="32110" LayoutWidth="FillParent" LayoutHeight="FillParent" AllowCheckItem="false" Drag="File" VScrollBar="VScrollBar.xml"/>
+		</SkinRelativeLayout>
+		<SkinLine Id="32200" LayoutWidth="FillParent" LayoutHeight="1" ToBottomOf="32100,0" Color="ID_COLOR_LINE"/>
+		<SkinRelativeLayout Id="32300" LayoutWidth="FillParent" ToBottomOf="32200,0" AlignParentBottom="0">
+			<SkinRelativeLayout Id="32310" LayoutHeight="40" AlignParentTop="0" AlignParentLeft="10" AlignParentRight="10">
+				<SkinButton Id="32311" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentVerticalCenter="0" AlignParentLeft="0" Image="Emotion.png" Tips="IDS_EMOTION_TIPS"/>
+				<SkinButton Id="32312" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentVerticalCenter="true" ToRightOf="32311,20" Image="Attachment.png" Tips="IDS_ATTACHMENT_TIPS"/>
+				<SkinButton Id="32313" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentVerticalCenter="true" ToRightOf="32312,20" Image="Call.png" Tips="IDS_SEND_CALL_TIPS"/>
+				<SkinButton Id="32314" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentVerticalCenter="true" ToRightOf="32313,20" Image="PrintScreen.png" Tips="IDS_SEND_CALL_TIPS"/>
+			</SkinRelativeLayout>
+			<SkinButton Id="32320" LayoutWidth="100" LayoutHeight="32" AlignParentRight="10" AlignParentBottom="10" Image="SendMsgButton.png" Layout="SendMsgButton.xml" RedrawAllChild="true"/>
+			<ChatInputEditView Id="32330" AlignParentLeft="10" AlignParentRight="10" ToBottomOf="32310,0" AlignParentBottom="48" Limit="5000" MultiLine="true" Drag="File" RichEdit="true" Menu="EditMenu2.xml" VScrollBar="VScrollBar.xml"/>
+		</SkinRelativeLayout>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>
